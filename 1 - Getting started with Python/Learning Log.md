@@ -114,3 +114,57 @@ Key: Varibale Operator Constant Function
       usf = int(inp) + 1
       print('US floor', usf)
       ```
+## 📘 Chapter 3: Project 5 Conditional Statements [29-03-2022]
+
+### 🚅 Outlines
+
+* if (statement):
+  * Indent
+  * elif (statement):
+  * else
+* Avoid Traceback: avoiding mistakes - Insurance policy
+    * try/except
+     ```
+     astr = 'Hello Bob'
+     try:
+        istr = int(astr)
+     except:
+        istr = -1
+     print('First', istr)
+     
+     astr = '123'
+     try:
+        istr = int(astr)
+     except:
+        istr = -1
+     print('Second', istr)
+     ```
+    * Insurance policy: alternate code to run when programme blows up
+    * Entire programme in _'try'_ block, if it blows up, go to _'except'_ block and print -1.
+    * Only put code you are unsure about
+* Sample try/except
+ ```
+ rawstr = input('Enter a number:')
+ try:
+    ival = int(rawstr)
+ except:
+    ival = -1
+ 
+ if ival > 0:
+    print('Nice work')
+ else:
+    print('Not a number')
+ ```
+
+
+### ❔ Questions
+
+N/A
+
+### ❗ Quiz summary
+
+N/A
+
+### ⛵ Further Exploration
+
+* Fundation of Computer Systems
