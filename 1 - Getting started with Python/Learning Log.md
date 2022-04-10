@@ -121,7 +121,7 @@ Key: Varibale Operator Constant Function
 * if (statement):
   * Indent
   * elif (statement):
-  * else
+  * else:
 * Avoid Traceback: avoiding mistakes - Insurance policy
     * try/except
      ```
@@ -163,8 +163,73 @@ N/A
 
 ### ❗ Quiz summary
 
-N/A
+* Logical operators
+    | Operator | Funciton       | Equal Syntax|
+    |----------| ---------------|-------------|
+    |     and  | x > 1 and x < 2| 1 < x < 2   |
+    |     or   | x < 1 or x > 2 | /           |
+    |     not  |not(x > 1 and x < 2| / |
 
 ### ⛵ Further Exploration
 
 * Fundation of Computer Systems
+* Arduino prototyping
+
+
+## 📘 Chapter 4: Project 6 Functions [10-04-2022]
+
+### 🚅 Outlines
+
+* 1️⃣ Stored steps
+    * Fundamentals
+    ```
+    def funcname():
+        print('Hello')
+        print('Fun')
+    
+    Calling/Invoking:
+    funcname()
+    ```
+* 2️⃣ Built-in Functions
+    * max/min()
+    ```
+    big = max('Hello world')
+    print(big)
+    
+    Output:
+    w
+    ```
+    * float/int()
+    * type()
+* 3️⃣ Builidng Functions
+    * def: define the funciton
+    * After define it, Call/Invoke the function!
+    * Arguments
+    ```
+    def greet(lang):
+        if lang == 'en':
+        ...
+    greet('en')
+    ```
+    lang is just an alias
+    * return
+        stops the function, determine residual value
+    * Multiple arguments
+     ```
+     def addtwo(a, b):
+        added = a + b
+        return added
+     ```
+ 
+### ❓ Questions
+
+N/A
+
+### ❗ Quiz summary
+
+N/A
+
+### ⛵ Further Exploration
+
+N/A
+
