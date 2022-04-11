@@ -5,7 +5,7 @@ The learning progress is documented in this file.
 ## [Unreleased]
 
 
-## 📘 Chapter 1: Project 1/2/3 Very Basic Intro [25-03-2022]
+## 📘 Chapter 1: Week 1/2/3 Very Basic Intro [25-03-2022]
 
 ### 🚅 Outlines
 
@@ -27,7 +27,7 @@ N/A
 
 * Fundation of Computer Systems
 
-## 📘 Chapter 2: Project 4 Variables and Expressions [25-03-2022]
+## 📘 Chapter 2: Week 4 Variables and Expressions [25-03-2022]
 
 How a programme uses the computer's memory to store, retrieve and calculate information.
 
@@ -114,7 +114,7 @@ Key: Varibale Operator Constant Function
       usf = int(inp) + 1
       print('US floor', usf)
       ```
-## 📘 Chapter 3: Project 5 Conditional Statements [29-03-2022]
+## 📘 Chapter 3: Week 5 Conditional Statements [29-03-2022]
 
 ### 🚅 Outlines
 
@@ -176,7 +176,7 @@ N/A
 * Arduino prototyping
 
 
-## 📘 Chapter 4: Project 6 Functions [10-04-2022]
+## 📘 Chapter 4: Week 6 Functions [10-04-2022]
 
 ### 🚅 Outlines
 
@@ -233,3 +233,160 @@ N/A
 
 N/A
 
+## 📘 Chapter 5: Week 7 Loops and Iteration [11-04-2022]
+
+
+### 🚅 Outlines
+
+* 1️⃣ Repeated steps
+    * Keyword: ``` while ```
+    * Example:
+           
+           
+            while n > 0 :
+                print(n)
+                n = n - 1
+            print('Blastoff!')
+            print(n)
+            
+    * Infinite Loop:
+           
+            
+            n = 5
+            while n > 0 :
+                print('Lather')
+                print('Rinse')
+            print('Dry off!')
+            
+       Iteration variable: n
+    * Breaking out of a Loop ```break```
+            
+            
+            while True:
+                line = input('> ')
+                if line == 'done':
+                    break
+                print(line)
+            print('Done!')
+            
+       Escape the loop instantly
+    * Finish an Iteration with Continue ```continue```
+            
+            
+            while True :
+                line = input('> ')
+                if line[0] == '#' :
+                    continue
+                if line == 'done' :
+                    break
+                pirnt(line)
+            print('Done!')
+            
+* 2️⃣ Definite Loops ```for```
+    * A simple Definite Loop Example:
+             
+             
+             for i in [5, 4 , 3, 2, 1] :
+                print(i)
+             print('Blastoff!')
+             
+    * A simple Definite Loop with Strings:
+                
+                
+                friends = ['Joseph', 'Glenn', 'Sally']
+                for friend in friends :
+                    print('Happy New Year:', friend)
+                print('Done!')
+                
+                
+    * Move ```i``` ahead
+    * Contract: for i in members
+* 3️⃣ Finding the Largest Value
+            
+            
+            largest_so_far = -1
+            print('Before', largest_so_far)
+            for the_num in largest_so_far :
+                if the_num > largest_so_far :
+                    largest_so_far = the_num
+            
+            print('After', largest_so_far)
+            
+* 4️⃣ Counting in a Loop
+            
+           
+            zork = 0
+            print('Before', zork)
+            for thing in [9, 41, 12, 3, 74, 15] :
+                zork = zork + 1
+                print(zork, thing)
+            print('After', zork)
+           
+* 5️⃣ Summing in a Loop
+            
+            
+            zork = 0
+            print('Before', zork)
+            for thing in [9, 41, 12, 3, 74, 15] :
+                zork = zork + thing
+                print(zork, thing)
+            print('After', zork)
+            
+* 6️⃣ Finding the Average in a Loop
+            
+            
+            count = 0
+            sum = 0
+            print('Before', zork)
+            for value in [9, 41, 12, 3, 74, 15] :
+                count = count + 1
+                sum = sum + value
+                print(count, sum, value)
+            print('After', count, sum, sum / count)
+            
+* 7️⃣ Filtering in a Loop
+            
+            print('Before')
+            for value in [9, 41, 12, 3, 74, 15] :
+                if value > 20 :
+                    print('Large number', value)
+            print('After')
+ * 8️⃣ Search Using a **Boolean Variable**
+            
+            found = False
+            print('Before', found)
+            for value in [9, 41, 12, 3, 74, 15] :
+                if value == 3 :
+                    found = True
+                    break
+                print(found, value)
+            print('After', found)
+ 
+ * 9️⃣ How to Find the Smallest Value
+            
+            smallest_so_far = None
+            print('Before')
+            for value in [9, 41, 12, 3, 74, 15] :
+                if smallest is None :
+                    smallest = value
+                elif value < smallest :
+                    print(smallest, value)
+            
+            print('After', smallest)
+            
+* 1️⃣0️⃣ "is" and "is not" Operators
+    * is: implies is the same as
+    * strong equiality
+
+
+### ❓ Questions
+
+N/A
+
+### ❗ Quiz summary
+
+N/A
+
+### ⛵ Further Exploration
+
+N/A
